@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="Заглушка: здесь будет портрет мастера Наталии">
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7e8e2"/><stop offset="1" stop-color="#eed3d3"/></linearGradient></defs>
+<rect width="520" height="620" rx="24" fill="url(#a)"/>
+<circle cx="260" cy="230" r="95" fill="#fff" opacity=".7"/>
+<circle cx="260" cy="215" r="62" fill="#f3d9c8"/>
+<path d="M198 215 a62 62 0 0 1 124 0 l-10 -38 a50 50 0 0 0 -104 0 z" fill="#5b4238"/>
+<path d="M165 330 q95 -70 190 0 l25 150 H140 z" fill="#fff" opacity=".85"/>
+<circle cx="238" cy="218" r="5" fill="#3a2e28"/><circle cx="282" cy="218" r="5" fill="#3a2e28"/>
+<path d="M245 245 q15 10 30 0" stroke="#b95f6b" stroke-width="4" fill="none" stroke-linecap="round"/>
+<text x="260" y="530" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="30" fill="#7a4a52">Наталия</text>
+<text x="260" y="562" text-anchor="middle" font-family="Verdana,sans-serif" font-size="15" fill="#9a8a7e">место для портрета мастера —</text>
+<text x="260" y="584" text-anchor="middle" font-family="Verdana,sans-serif" font-size="15" fill="#9a8a7e">замените файл images/about-placeholder.svg</text>
+</svg>

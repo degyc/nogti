@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Наталия — маникюр, дизайн ногтей и beauty-услуги</title>
+  <meta name="description" content="Наталия — мастер ногтевого сервиса и beauty-услуг. Маникюр, покрытие гель-лаком, дизайн ногтей по вашим референсам, педикюр, ресницы и татуаж бровей. Индивидуальный подход и внимание к деталям. Запись по телефону 8-960-463-59-93." />
+  <meta name="theme-color" content="#faf5ef" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+
+  <!-- Open Graph для красивого отображения ссылки в мессенджерах -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Наталия | Beauty — маникюр, дизайн ногтей и beauty-услуги" />
+  <meta property="og:description" content="Красота в деталях. Маникюр, стильные дизайны ногтей и beauty-процедуры с вниманием к вашим пожеланиям." />
+  <meta property="og:image" content="images/og-cover.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <!-- ============ БЛОК 1. ШАПКА ============ -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Наталия Beauty — на главную">
+        <span class="logo__mark" aria-hidden="true">N</span>
+        <span class="logo__text">Наталия <span class="logo__sep">|</span> <span class="logo__beauty">Beauty</span></span>
+      </a>
+      <nav class="nav" id="mainNav" aria-label="Основная навигация">
+        <a class="nav__link" href="#about">Обо мне</a>
+        <a class="nav__link" href="#services">Услуги</a>
+        <a class="nav__link" href="#works">Мои работы</a>
+        <a class="nav__link" href="#benefits">Преимущества</a>
+        <a class="nav__link" href="#contacts">Контакты</a>
+        <a class="nav__phone" href="tel:+79604635993">8-960-463-59-93</a>
+        <a class="btn btn--primary nav__cta" href="#booking">Записаться</a>
+      </nav>
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+79604635993" aria-label="Позвонить Наталии">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+          <span>8-960-463-59-93</span>
+        </a>
+        <a class="btn btn--primary btn--sm header__cta" href="#booking">Записаться</a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ БЛОК 2. HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__blob hero__blob--1"></span>
+        <span class="hero__blob hero__blob--2"></span>
+        <span class="hero__blob hero__blob--3"></span>
+        <span class="hero__line hero__line--1"></span>
+        <span class="hero__line hero__line--2"></span>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Мастер ногтевого сервиса · Beauty-услуги</p>
+          <h1 class="hero__title" id="hero-title">Красота в&nbsp;деталях. Уход, который подчёркивает <em>вашу индивидуальность</em></h1>
+          <p class="hero__subtitle">Маникюр, стильные дизайны ногтей и&nbsp;beauty-процедуры с&nbsp;вниманием к&nbsp;вашим пожеланиям</p>
+          <p class="hero__signature">Ваш стиль. Ваши пожелания. Моё внимание к&nbsp;деталям.</p>
+          <div class="hero__buttons">
+            <a class="btn btn--primary btn--lg" href="#works">Посмотреть работы</a>
+            <a class="btn btn--ghost btn--lg" href="#booking">Записаться</a>
+          </div>
+          <ul class="hero__points" aria-label="Коротко о подходе">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+              Дизайн по вашему фото-референсу
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+              От нежной классики до выразительных решений
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+              Спокойная запись по телефону
+            </li>
+          </ul>
+        </div>
+        <div class="hero__visual reveal" data-reveal-delay="150">
+          <figure class="hero__card">
+            <!-- Декоративная авторская иллюстрация: не выдаётся за фото работы -->
+            <img src="images/hero-nails.svg" alt="Нежная иллюстрация ухоженных рук с нюдовым маникюром" width="640" height="760" fetchpriority="high" />
+            <figcaption class="hero__card-caption">
+              <span class="hero__card-name">Нюд · френч · минимализм · блёстки</span>
+              <span class="hero__card-note">подберём дизайн вместе с вами</span>
+            </figcaption>
+          </figure>
+          <div class="hero__float hero__float--top" aria-hidden="true">
+            <span class="hero__float-stars">★★★★★</span>
+            <span>аккуратно и с любовью к деталям</span>
+          </div>
+          <a class="hero__float hero__float--bottom" href="tel:+79604635993" aria-label="Позвонить: 8-960-463-59-93">
+            <span class="hero__float-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+            </span>
+            <span><strong>8-960-463-59-93</strong><small>позвоните, чтобы записаться</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 3. УСЛУГИ ============ -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow eyebrow--center">Услуги</p>
+          <h2 class="section__title" id="services-title">Забота о вашей красоте — <em>от кончиков ногтей до взгляда</em></h2>
+          <p class="section__lead">Выберите направление — дизайн, оттенок и детали обсудим вместе. Точную стоимость подскажу по телефону, она зависит от ваших пожеланий.</p>
+        </div>
+        <div class="services__grid">
+          <article class="card reveal">
+            <div class="card__media card__media--manicure" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 44c-3-6-2-12 2-17l14-14c2-2 5-2 7 0s2 5 0 7L29 34"/><path d="M28 50c8 2 17-1 21-8"/><path d="M14 52c4 4 10 6 16 5"/></svg>
+            </div>
+            <h3 class="card__title">Маникюр</h3>
+            <p class="card__text">Аккуратная обработка ногтей и уход за руками. Чистая форма, ухоженная кутикула, естественный и опрятный вид.</p>
+            <ul class="card__list">
+              <li>Аккуратная обработка</li>
+              <li>Уход за руками и ногтями</li>
+            </ul>
+            <a class="btn btn--soft card__btn" href="#booking">Записаться</a>
+          </article>
+          <article class="card reveal" data-reveal-delay="80">
+            <div class="card__media card__media--gel" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M26 8h12v10l4 34a6 6 0 0 1-6 6H28a6 6 0 0 1-6-6l4-34V8z"/><path d="M26 14h12"/><path d="M30 28h4M29 36h6"/></svg>
+            </div>
+            <h3 class="card__title">Покрытие гель-лаком</h3>
+            <p class="card__text">Однотонное покрытие с подбором оттенка под ваш стиль. Аккуратное оформление и дизайн по вашему желанию.</p>
+            <ul class="card__list">
+              <li>Подбор оттенков</li>
+              <li>Дизайн по пожеланиям</li>
+            </ul>
+            <a class="btn btn--soft card__btn" href="#booking">Записаться</a>
+          </article>
+          <article class="card reveal" data-reveal-delay="160">
+            <div class="card__media card__media--design" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 46c8-2 14-8 16-16l12-12"/><circle cx="44" cy="14" r="6"/><path d="M14 54c10 0 20-4 26-12"/><path d="M40 34l6 6M34 40l6 6"/></svg>
+            </div>
+            <h3 class="card__title">Дизайн ногтей</h3>
+            <p class="card__text">Минимализм, френч, нежные нюдовые оттенки, блёстки и декор. Приносите референс — повторим или придумаем своё.</p>
+            <ul class="card__list">
+              <li>Френч и минимализм</li>
+              <li>Дизайн по референсам</li>
+            </ul>
+            <a class="btn btn--soft card__btn" href="#booking">Обсудить дизайн</a>
+          </article>
+          <article class="card reveal">
+            <div class="card__media card__media--pedicure" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 52V30c0-8 5-14 10-14s10 6 10 14v22"/><path d="M22 40h20"/><circle cx="32" cy="12" r="3"/></svg>
+            </div>
+            <h3 class="card__title">Педикюр</h3>
+            <p class="card__text">Эстетичный уход за ногтями ног и аккуратное оформление. Покрытие — по возможности, уточняйте при записи.</p>
+            <ul class="card__list">
+              <li>Аккуратное оформление</li>
+              <li>Ухоженный вид</li>
+            </ul>
+            <a class="btn btn--soft card__btn" href="#booking">Записаться</a>
+          </article>
+          <article class="card reveal" data-reveal-delay="80">
+            <div class="card__media card__media--lashes" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 28c8 8 20 12 32 10 8-1 13-4 16-8"/><path d="M16 30l-3 6M24 34l-2 6M32 36l-1 6M40 36l1 6M48 34l3 5"/><circle cx="50" cy="18" r="2"/></svg>
+            </div>
+            <h3 class="card__title">Ресницы</h3>
+            <p class="card__text">Услуги по ресницам для выразительного и ухоженного взгляда. Детали и варианты обсудим лично при записи.</p>
+            <ul class="card__list">
+              <li>Выразительный взгляд</li>
+              <li>Детали — при записи</li>
+            </ul>
+            <a class="btn btn--soft card__btn" href="#booking">Уточнить детали</a>
+          </article>
+          <article class="card reveal" data-reveal-delay="160">
+            <div class="card__media card__media--brows" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 30c6-8 16-12 26-11 8 1 14 5 18 10"/><path d="M14 36c5-5 12-8 19-7"/><path d="M44 20l4-4M48 26l5-2"/></svg>
+            </div>
+            <h3 class="card__title">Татуаж бровей</h3>
+            <p class="card__text">Элегантное оформление бровей с акцентом на выразительность и ухоженный вид. Все вопросы — на консультации.</p>
+            <ul class="card__list">
+              <li>Ухоженная форма</li>
+              <li>Консультация заранее</li>
+            </ul>
+            <a class="btn btn--soft card__btn" href="#booking">Записаться</a>
+          </article>
+        </div>
+        <p class="services__note reveal">Цены не указаны, так как зависят от дизайна и ваших пожеланий — их легко добавить сюда позже. Позвоните, и я сориентирую по стоимости.</p>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 4. ОБО МНЕ ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__visual reveal">
+          <figure class="about__frame">
+            <img src="images/about-placeholder.svg" alt="Место для портрета мастера Наталии" width="520" height="620" loading="lazy" />
+            <figcaption class="about__badge">
+              <strong>Наталия</strong>
+              <span>мастер ногтевого сервиса</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="about__content reveal" data-reveal-delay="120">
+          <p class="eyebrow">Обо мне</p>
+          <h2 class="section__title" id="about-title">Давайте знакомиться — <em>я Наталия</em></h2>
+          <div class="about__text">
+            <p>Я Наталия, мастер ногтевого сервиса. Уже достаточно давно занимаюсь ногтями и люблю создавать красивые, аккуратные работы, в которых учитываются индивидуальность и пожелания каждой клиентки.</p>
+            <p>Мне нравится экспериментировать с оттенками, формами и дизайнами — от нежной классики до интересных и выразительных решений.</p>
+            <p>Для меня важно, чтобы результат нравился именно вам. Вы можете показать понравившуюся фотографию, предложить свою идею или довериться моему вкусу — вместе подберём подходящий вариант.</p>
+            <p>Буду рада помочь вам подчеркнуть свою индивидуальность и добавить немного красоты в повседневную жизнь!</p>
+          </div>
+          <div class="about__tags" aria-label="С чем я работаю">
+            <span>нюд и классика</span><span>френч</span><span>минимализм</span><span>блёстки</span><span>дизайн по фото</span>
+          </div>
+          <div class="about__buttons">
+            <a class="btn btn--primary" href="#works">Смотреть мои работы</a>
+            <a class="btn btn--ghost" href="#booking">Связаться со мной</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 5. ПЛАВАЮЩАЯ ЛЕНТА ============ -->
+    <section class="section marquee-section" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow eyebrow--center">Галерея в движении</p>
+          <h2 class="section__title" id="works-title">Мои работы — <em>красота в каждой детали</em></h2>
+          <p class="section__lead">Выбирайте понравившийся дизайн и вдохновляйтесь новыми идеями. Лента движется медленно, чтобы вы успели рассмотреть каждую работу.</p>
+        </div>
+      </div>
+      <div class="marquee" data-direction="left" aria-label="Лента работ: маникюр и дизайн ногтей">
+        <div class="marquee__viewport">
+          <div class="marquee__track" id="marqueeTrack1"><!-- заполняется из JS: дублируется для бесшовности --></div>
+        </div>
+      </div>
+      <div class="marquee marquee--reverse" data-direction="right" aria-label="Лента работ: другие beauty-работы">
+        <div class="marquee__viewport">
+          <div class="marquee__track" id="marqueeTrack2"></div>
+        </div>
+      </div>
+      <p class="marquee__hint">Наведите курсор, чтобы приостановить ленту и рассмотреть дизайн ближе</p>
+    </section>
+
+    <!-- ============ БЛОК 6. ГАЛЕРЕЯ ============ -->
+    <section class="section gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Галерея</p>
+          <h2 class="section__title" id="gallery-title">Рассмотрите <em>каждый дизайн</em> ближе</h2>
+          <p class="section__lead">Нажмите на карточку, чтобы открыть увеличенный просмотр и листать работы. Фильтры помогут найти маникюр, дизайн или педикюр.</p>
+        </div>
+        <div class="gallery__filters reveal" role="group" aria-label="Фильтр работ">
+          <button class="chip is-active" data-filter="all" type="button">Все работы</button>
+          <button class="chip" data-filter="manicure" type="button">Маникюр</button>
+          <button class="chip" data-filter="design" type="button">Дизайн</button>
+          <button class="chip" data-filter="beauty" type="button">Другие beauty-работы</button>
+        </div>
+        <div class="gallery__grid reveal" id="galleryGrid"><!-- карточки создаются из JS --></div>
+      </div>
+
+      <!-- Лайтбокс -->
+      <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр работы" hidden>
+        <div class="lightbox__backdrop" data-close></div>
+        <figure class="lightbox__box">
+          <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+          <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+          <button class="lightbox__btn lightbox__btn--close" data-close type="button" aria-label="Закрыть просмотр">✕</button>
+          <button class="lightbox__btn lightbox__btn--prev" id="lightboxPrev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="lightbox__btn lightbox__btn--next" id="lightboxNext" type="button" aria-label="Следующее фото">›</button>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 7. ПРЕИМУЩЕСТВА ============ -->
+    <section class="section benefits" id="benefits" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow eyebrow--center">Почему выбирают меня</p>
+          <h2 class="section__title" id="benefits-title">Спокойно, внимательно <em>и с уважением к вашим желаниям</em></h2>
+          <p class="section__lead">Только честные формулировки — без громких обещаний. Просто стараюсь делать красиво и аккуратно.</p>
+        </div>
+        <div class="benefits__grid">
+          <article class="benefit reveal">
+            <span class="benefit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-9.5-9C.9 8.9 2.4 5.5 5.7 5c1.9-.3 3.7.7 4.6 2.3h3.4c.9-1.6 2.7-2.6 4.6-2.3 3.3.5 4.8 3.9 3.2 7-2.5 4.5-9.5 9-9.5 9z" transform="scale(.92) translate(1,0)"/></svg></span>
+            <h3>Индивидуальный подход к дизайну</h3>
+            <p>Подбираем оттенок, форму и декор под вас — а не по шаблону.</p>
+          </article>
+          <article class="benefit reveal" data-reveal-delay="70">
+            <span class="benefit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg></span>
+            <h3>Внимание к деталям</h3>
+            <p>Аккуратные линии, чистая форма и опрятный результат.</p>
+          </article>
+          <article class="benefit reveal" data-reveal-delay="140">
+            <span class="benefit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="1.6"/><path d="m21 15-4.5-4.5L6 21"/></svg></span>
+            <h3>Дизайн по референсу</h3>
+            <p>Пришлите фото понравившегося маникюра — обсудим, как повторить.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="benefit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.2"/></svg></span>
+            <h3>Разнообразие оттенков и идей</h3>
+            <p>От нюдовой классики до блёсток и выразительных решений.</p>
+          </article>
+          <article class="benefit reveal" data-reveal-delay="70">
+            <span class="benefit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"/><path d="M9 11h.01M12.5 11h.01M16 11h.01"/></svg></span>
+            <h3>Внимательное отношение к пожеланиям</h3>
+            <p>Слушаю, уточняю и предлагаю варианты, пока не найдём «то самое».</p>
+          </article>
+          <article class="benefit reveal" data-reveal-delay="140">
+            <span class="benefit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6 4.9.4-3.7 3.2 1.1 4.8L12 13.7 7.8 16l1.1-4.8L5.2 8l4.9-.4L12 3z"/></svg></span>
+            <h3>Аккуратное и эстетичное оформление</h3>
+            <p>Спокойная атмосфера и результат, который приятно рассматривать.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 8. КАК ЗАПИСАТЬСЯ ============ -->
+    <section class="section booking" id="booking" aria-labelledby="booking-title">
+      <div class="container">
+        <div class="booking__card reveal">
+          <div class="booking__info">
+            <p class="eyebrow eyebrow--light">Запись</p>
+            <h2 class="booking__title" id="booking-title">Готовы к своему новому образу?</h2>
+            <p class="booking__text">Выберите услугу, расскажите о своих пожеланиях и свяжитесь со мной, чтобы обсудить удобное время.</p>
+            <a class="booking__phone" href="tel:+79604635993">8-960-463-59-93</a>
+            <p class="booking__note">Нажмите «Позвонить», чтобы набрать номер сразу. Кнопка «Написать в MAX» скопирует номер — откройте мессенджер MAX, вставьте его в поиск и откройте чат со мной.</p>
+          </div>
+          <div class="booking__actions">
+            <a class="btn btn--light btn--lg btn--block" href="tel:+79604635993">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+              Позвонить
+            </a>
+            <button class="btn btn--max btn--lg btn--block" id="maxCopyBtn" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"/><path d="M8.5 10.5l1.8 1.8 3.4-3.6"/></svg>
+              Написать в MAX
+            </button>
+            <button class="btn btn--outline-light btn--lg btn--block" id="copyPhoneBtn" type="button">Скопировать номер</button>
+            <p class="booking__copy-hint" id="copyHint" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 9. FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__inner">
+        <div class="section__head reveal">
+          <p class="eyebrow">Вопросы и ответы</p>
+          <h2 class="section__title" id="faq-title">Частые <em>вопросы</em></h2>
+          <p class="section__lead">Коротко и честно. Если чего-то нет в списке — просто позвоните, всё подскажу.</p>
+        </div>
+        <div class="faq__list reveal">
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">Можно ли выбрать дизайн по фотографии?<span class="faq__icon" aria-hidden="true">+</span></button>
+            <div class="faq__a"><p>Да, конечно. Пришлите или покажите фото понравившегося дизайна при записи — вместе обсудим, как лучше его повторить с учётом формы и длины ваших ногтей.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">Можно ли заранее обсудить желаемый результат?<span class="faq__icon" aria-hidden="true">+</span></button>
+            <div class="faq__a"><p>Да. Позвоните мне заранее, опишите идею или отправьте референс в MAX — подскажу, что получится и что стоит учесть.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">Как узнать стоимость процедуры?<span class="faq__icon" aria-hidden="true">+</span></button>
+            <div class="faq__a"><p>Стоимость зависит от услуги и сложности дизайна, поэтому фиксированного прайса на сайте нет. Позвоните по номеру 8-960-463-59-93 — сориентирую по цене под ваши пожелания.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">Как записаться на удобное время?<span class="faq__icon" aria-hidden="true">+</span></button>
+            <div class="faq__a"><p>Позвоните мне или напишите в MAX (найдите мой номер в поиске), предложите удобные дни и время — договоримся. Лучше записываться заранее.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">Какие услуги доступны?<span class="faq__icon" aria-hidden="true">+</span></button>
+            <div class="faq__a"><p>Маникюр, покрытие гель-лаком, дизайн ногтей, педикюр, услуги по ресницам и татуаж бровей. Детали каждой услуги — в разделе «Услуги» выше или по телефону.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ БЛОК 10. КОНТАКТЫ И ПОДВАЛ ============ -->
+    <footer class="footer" id="contacts" aria-labelledby="footer-title">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a class="logo logo--light" href="#top" aria-label="Наталия Beauty — наверх">
+              <span class="logo__mark" aria-hidden="true">N</span>
+              <span class="logo__text">Наталия <span class="logo__sep">|</span> <span class="logo__beauty">Beauty</span></span>
+            </a>
+            <p class="footer__about" id="footer-title">Частный beauty-мастер Наталия: маникюр, дизайн ногтей и уход с вниманием к вашим пожеланиям.</p>
+            <a class="footer__phone" href="tel:+79604635993">8-960-463-59-93</a>
+            <div class="footer__social">
+              <a class="btn btn--light btn--sm" href="tel:+79604635993">Позвонить</a>
+              <button class="btn btn--outline-light btn--sm js-copy-max" type="button">Написать в MAX</button>
+            </div>
+          </div>
+          <nav class="footer__nav" aria-label="Навигация в подвале">
+            <p class="footer__heading">Навигация</p>
+            <a href="#about">Обо мне</a>
+            <a href="#services">Услуги</a>
+            <a href="#works">Мои работы</a>
+            <a href="#benefits">Преимущества</a>
+            <a href="#faq">Вопросы и ответы</a>
+            <a href="#booking">Записаться</a>
+          </nav>
+          <div class="footer__info">
+            <p class="footer__heading">Связаться</p>
+            <p>Телефон: <a href="tel:+79604635993">8-960-463-59-93</a></p>
+            <p class="footer__muted">Адрес и график работы появятся здесь позже — уточняйте при записи.</p>
+            <p class="footer__muted">Соцсети появятся здесь позже.</p>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© <span id="year">2026</span> Наталия | Beauty. Все права защищены.</p>
+          <p class="footer__made">Сделано с вниманием к деталям</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Мобильная плавающая кнопка связи -->
+  <a class="fab" href="tel:+79604635993" aria-label="Позвонить Наталии: 8-960-463-59-93">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+  </a>
+
+  <!-- Как добавить новые фотографии в ленту и галерею:
+       1) Положите файл в папку nogti/ (оригиналы хранятся там).
+       2) Скопируйте его в images/works/ под следующим номером,
+          например nogti-15.jpg (JPG, JPEG, PNG или WebP).
+       3) В script.js добавьте одну строку в WORKS_ROW_1 или
+          WORKS_ROW_2 — скорость ленты пересчитается автоматически.
+       Для hero замените images/hero-nails.svg на своё фото (обновите alt).
+       Для блока «Обо мне» замените images/about-placeholder.svg на портрет. -->
+
+  <script src="script.js" defer></script>
+</body>
+</html>
